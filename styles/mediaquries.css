@@ -1,0 +1,39 @@
+@media (max-width: 1115px) {
+    .body{
+        background-repeat:repeat;
+    }
+    
+    .nav-bar{
+        flex-direction: column;
+    }
+
+    .main-content{
+        grid-template-columns: 1fr;
+    }
+
+    .left-column-bottom-buttons{
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .left-column-bottom-buttons a{
+        margin: 20px;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer a{
+        width:400px;
+        display: flex;
+        align-self: center;
+    }
+
+    .main-content > .right-column > .right-desktop-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

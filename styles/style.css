@@ -6,7 +6,7 @@ font-family: sans-serif;
 background:linear-gradient(150deg, #5e5d5d, #121213);
 background-position: 0px  0px;
 background-repeat: no-repeat;
-height: 800px;
+height: fit-content;
 }
 
 /* nav-bar */
@@ -159,7 +159,7 @@ height: 800px;
     color: white;
     text-decoration: none;
     background-color: rgb(48, 47, 47);
-    padding: 20px 85px;
+    padding: 20px 83px;
     font-size: 20px;
     border: gray 1px solid;
     margin:0.5px;
@@ -167,4 +167,8 @@ height: 800px;
 
 .footer a:hover{
     filter:brightness(70%);
+}
+
+.spacer{
+    height: 200px;
 }
